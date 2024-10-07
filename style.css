@@ -1,0 +1,336 @@
+
+header {
+    background-color: aliceblue;
+    color: #7f61af;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+
+.logo img {
+    height: 70px; /* Adjust the height of the logo as needed */
+    margin-right: 10px; /* Adjust the margin between the logo and text */
+}
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+    font-family: 'Poetsen One', sans-serif;
+    color: #ff00ff; 
+}
+/* Allow flex items to wrap */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.dropdown a:hover{
+    color:  rgba(233, 40, 191, 0.704);
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgba(255, 255, 255, 0.24);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgb(209, 25, 163);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: rgba(233, 40, 191, 0.704);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change color of the main menu item on hover */
+.dropdown:hover .resume-link {
+    color: blue; /* Change to your desired color */
+}
+
+/* Change color of dropdown items individually on hover */
+.dropdown-content a:hover {
+    color:  rgba(233, 40, 191, 0.704); /* Change to your desired color */
+}
+.dropdown-content a i {
+    color: #1f51d9;  /* Change to your desired color */
+}
+
+.btn1 {
+    background-color: #ff00ff;
+    color: #ffffff;
+    text-decoration: none;
+    width: 100%;  /* Ensures the button takes the full width of its container */
+    box-sizing: border-box; 
+    font-size: 16px;
+    border: none;
+    font-family: serif;
+    font-weight: 600;
+    height: 50px;
+}
+.btn2 {
+    background-color: #ff00ff;
+    color: #ffffff;
+    text-decoration: none;
+    width: 100%;  /* Ensures the button takes the full width of its container */
+    box-sizing: border-box; 
+    font-size: 16px;
+    border: none;
+    font-family: serif;
+    font-weight: 600;
+    height: 50px;
+}
+.btn3 {
+    background-color: #ff00ff;
+    color: #ffffff;
+    text-decoration: none;
+    width: 100%;  /* Ensures the button takes the full width of its container */
+    box-sizing: border-box; 
+    font-size: 16px;
+    border: none;
+    font-family: serif;
+    font-weight: 600;
+    height: 50px;
+    }
+.auth-links {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.auth-links .login,
+.auth-links .signup {
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.auth-links .signup {
+    background-color: #ff00ff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #ffffff;
+}
+main {
+    width: 100%;
+    margin-top: 15px;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 20px;
+    background-color: #F1FAFC;
+   
+}
+.cta-button {
+    background-color: #ff00ff;
+    color: #ffffff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 18px;
+    display: inline-block;
+}
+.hero-image img {
+    max-width: 700px;
+    height: auto;
+    margin-right: 105px;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+.hero h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+    color: #333;
+}
+.hero h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #e42cd8;
+}
+.steps {
+    text-align: center;
+    padding: 60px 20px;
+    color: darkblue;    
+}
+.step {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.step1 .text {
+    order: 1;
+    text-align: left;
+}
+.step1 .image {
+    order: 2;
+    margin-left: 20px;
+    
+}
+.steps {
+    position: relative; /* Ensure the container is relatively positioned */
+}
+
+.steps h3 {
+    position: absolute;
+    top:170px; /* Adjust the vertical position as needed */
+    z-index: 1;
+    margin-left: 270px; 
+    font-size: 25px;
+    font-family: 'Poetsen One', sans-serif;/* Ensure the heading is above other elements */
+}
+.step2 .text {
+    order: 2;
+    text-align: right;
+}
+
+.step2 .image {
+    order: 1;
+    margin-right: 20px;
+    
+    
+}
+.step2 .image img {
+    width: 70%; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+}
+.step2 .image {
+    margin-bottom: 0px; /* Reduce space below Step 3 image */
+}
+
+.step2 {
+    margin-bottom: 5px; /* Reduce space below Step 2 */
+}
+
+.steps h4{
+    position: absolute;
+    left: 55%; /* Position the heading horizontally at the center */
+    transform: translateX(-50%); /* Adjust the horizontal position */
+    top: 550px;
+    /* Adjust the vertical position as needed */
+    z-index: 1;
+    font-size: 25px;
+    font-family: 'Poetsen One', sans-serif; /* Ensure the heading is above other elements */
+}
+.step2 .image {
+    margin-bottom: 20px; /* Add space below Step 2 image */
+}
+
+.step3 .text {
+    order: 1;
+    text-align: left;
+    
+}
+.step3 .image {
+    order: 2;
+    margin-left: 20px;
+    
+}
+.step3 .image img {
+    width: 90%; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+}
+.step3 .image {
+    margin-bottom: 0px; /* Reduce space below Step 3 image */
+}
+
+.step3 .container {
+    margin-top: 0px; /* Reduce space above Step 3 container */
+}
+
+.steps h5 {
+    position: absolute;
+    top:900px; /* Adjust the vertical position as needed */
+    z-index: 1;
+    margin-left: 240px; 
+    font-size: 25px;
+    font-family: 'Poetsen One', sans-serif;/* Ensure the heading is above other elements */
+}
+.step4 .text{
+    order: 2;
+    text-align: right;
+}
+.step4 .image {
+    order: 1;
+    margin-right: 20px;
+}
+
+.steps h6{
+    position: absolute;
+    left: 51%; /* Position the heading horizontally at the center */
+    transform: translateX(-50%); /* Adjust the horizontal position */
+    top: 1330px;
+    /* Adjust the vertical position as needed */
+    z-index: 1;
+    font-size: 25px;
+    font-family: 'Poetsen One', sans-serif; /* Ensure the heading is above other elements */
+}
+.container {
+    background-color: aliceblue; /* Example background color */
+    padding: 20px; /* Example padding */
+    border-radius: 10px; /* Example border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.904); /* Example box shadow */
+    transition: transform 0.98s ease;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 300;
+    color:maroon; /* Faster transition for movement */
+}
+
+.steps:hover .container {
+    transform: translateX(40px); /* Move container 20px to the left on hover */
+}
+@media (max-width: 768px) {
+    .step {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .step .text, .step .image {
+        order: initial;
+        margin: 10px 0;
+        max-width: 100%;
+    }
+
+    .step .image img {
+        margin: 0 auto;
+    }
+}

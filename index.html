@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResuGenie - Online Resume Maker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    
+    <header>   
+        <nav>
+            <div class="logo">
+                <img src="logo3.png" alt="ResuGenie Logo">
+                <h1>ResuGenie</h1>
+            </div>
+            <ul class="nav-links">
+                <li class="dropdown">
+                    <a href="#">Tools</a>
+                    <div class="dropdown-content">
+                        <a href="cvMaker.html"><i class="fas fa-file-alt"></i> CV Maker</a>
+                        <a href="CoverLetter.html"><i class="fas fa-file-word"></i> Cover Letter</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Resume</a>
+                    <div class="dropdown-content">
+                        <a href="templates.html"><i class="fas fa-th"></i> Resume Templates</a>
+                        <a href="Guide.html"><i class="fas fa-book"></i> How To Write a Resume</a>
+                        <a href="Format.html"><i class="fas fa-file-alt"></i> Resume Format</a>
+                        <button class="btn1" onclick="createResume">Create A Resume Now</button>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Cv</a>
+                    <div class="dropdown-content">
+                        <a href="templates1.html"><i class="fas fa-th"></i> Cv Templates</a>
+                        <a href="Guide1.html"><i class="fas fa-book"></i> How To Write a Cv</a>
+                        <a href="Format1.html"><i class="fas fa-file-alt"></i> Cv Format</a>
+                        <button class="btn2" onclick="createResume">Create A Cv Now</button>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Cover Letter</a>
+                    <div class="dropdown-content">
+                        <a href="templates2.html"><i class="fas fa-th"></i> Cover Templates</a>
+                        <a href="Guide2.html"><i class="fas fa-book"></i> How To Write a Cover Letter</a>
+                        <a href="Format2.html"><i class="fas fa-file-alt"></i> Cover Format</a>
+                        <button class="btn3" onclick="createResume">Create A Cover Letter Now</button>
+                    </div>
+                </li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+            <div class="auth-links">
+                <a href="#" class="login">Log In</a>
+                <a href="#" class="signup">Sign Up</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Online Resume Maker<br>Build a Professional Resume Now</h1>
+                <h2>Crafting resumes that open doors to opportunity</h2>
+                <p>ResuGenie provides a streamlined and efficient platform for creating outstanding resumes. <br>Whether you are a recent graduate or an experienced professional, our tools are designed <br>to help you present your qualifications and experience in the best possible light.</p>
+                <a href="#" class="cta-button">Create Your Resume Now</a>
+            </div>
+            <div class="hero-image">
+                <img src="re.svg" alt="Resume Illustration">
+            </div>
+        </section>
+
+        <section class="steps">
+            <h2>Steps To Create Your Resume</h2>
+            <!-- Steps content will go here -->
+            <h3>Step 1:Select a Template</h3>
+            <div class="step step1">
+                <div class="container">
+                <div class="text">
+                    
+                    <p>Explore our collection of professionally designed templates and <br>choose one that aligns with your career goals.</p>
+                </div>
+            </div>
+                <div class="image">
+                    <img src="template1.jpg" alt="Select a Template">
+                </div>
+            </div>
+            <div class="step step2">
+                <div class="image">
+                    <img src="template2.avif" alt="Enter Your Information">
+                </div>
+                <h4>Step 2: Enter Your Information</h4>
+                <div class="text">
+                    <div class="container">
+                    <p>Provide details about your work experience, education, skills, and other relevant information.</p>
+                </div>
+                </div>
+            </div>
+            <h5>Step3:Customize Your Resume</h5>
+            <div class="step step3">
+                <div class="container">
+                <div class="text">
+                    
+                    <p>Utilize our intuitive editor to customize your resume. <br>Add sections, modify the design, and ensure it highlights your strengths.</p>
+                </div>
+            </div>
+                <div class="image">
+                    <img src="template3.jpg" alt="Customize Your Resume">
+                </div>
+            </div>
+            <div class="step step4">
+                <div class="image">
+                    <img src="template4.png" alt="Download and Apply">
+                </div>
+                <h6>Step 6:Download and Apply</h6>
+                <div class="text">
+                    <div class="container">
+                    
+                    <p>Once your resume is complete, download it in your preferred format (PDF, Word)<br> and start applying for jobs.</p>
+                </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
